@@ -65,12 +65,13 @@ Alternative LLM back‑ends are available: `gemini`, `kimi`, `ollama`, `qwen`.
 
 ## 📄 Citation
 ```
-@inproceedings{chen2025mispmeeting,
-  title     = {MISP‑Meeting: A Real‑World Dataset with Multimodal Cues for Long‑form Meeting Transcription and Summarization},
-  author    = {Hang Chen and Jun Du and Sabato Marco Siniscalchi and et al.},
-  booktitle = {Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (ACL)},
-  year      = {2025}
-}
+@inproceedings{chen2025misp,
+  title = "{MISP - Meeting}: A Real-World Dataset with Multimodal Cues for Long-form Meeting Transcription and Summarization",
+  author = "Chen, Hang and Yang, Chao-Han Huck and Gu, Jia-Chen and Siniscalchi, Sabato Marco and Du, Jun",
+  booktitle = "Proceedings of the 63st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  year = "2025",
+  publisher = "Association for Computational Linguistics",
+  pages = "1--14"}
 ```
 
 ## 🙏 Acknowledgements
