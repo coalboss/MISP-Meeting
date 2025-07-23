@@ -1,0 +1,23 @@
+# Core ML / LLM clients
+openai>=1.14.2
+google-generativeai>=0.4.1
+ollama>=0.1.7
+openai-whisper>=20231120
+
+# Speech & audio
+numpy>=1.24.4
+scipy>=1.11.4
+
+# Chinese NLP utilities
+jieba>=0.42.1
+rouge-chinese>=1.0.3
+cn2an>=0.5.11
+zhconv>=1.4.3
+zhon>=1.1.5
+
+# Evaluation & metrics
+jiwer>=3.0.3
+nltk>=3.8.1
+
+# Misc
+tqdm>=4.66.2
