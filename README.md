@@ -27,6 +27,41 @@
 
 > Problems? Open an [issue](../../issues) or e‑mail the maintainers.
 
+## ⚙️ Quick Start
+### 1. Environment
+```bash
+conda create -n misp python=3.9 pytorch torchaudio cudatoolkit=11.8 -c pytorch -y
+conda activate misp
+pip install -r requirements.txt
+```
+
+### 2. Speech Enhancement (GSS)
+We use the **guided source separation (GSS)** implementation from  
+<https://github.com/desh2608/gss>.
+
+```bash
+git clone https://github.com/desh2608/gss external/gss
+# follow the GSS README to enhance 8‑ch recordings, e.g.
+python external/gss/apply_gss.py    --audio_dir /path/to/MISP/far_audio    --rt60 0.3 --mic_format misp    --out_dir /path/to/MISP/far_audio_gss
+```
+
+### 3. Speech Recognition (AVSR & Fine‑tuning)
+For recognition we reuse the **AVSR** recipe developed in our previous work  
+<https://github.com/mispchallenge/MISP-ICME-AVSR>.
+
+```bash
+git clone https://github.com/mispchallenge/MISP-ICME-AVSR external/avsr
+# see external/avsr/README.md for end‑to‑end training / inference
+```
+
+### 4. Summarisation Utilities
+```bash
+# generate brief & detailed summaries with DeepSeek LLM
+python summary_by_deepseek.py
+```
+Alternative LLM back‑ends are available: `gemini`, `kimi`, `ollama`, `qwen`.
+---
+
 
 ## 📄 Citation
 ```
