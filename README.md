@@ -21,11 +21,22 @@
 | **Licensing** | CC BY‑NC‑ND 4.0 (research‑only, free upon authorisation) |
 
 ## 🔗 Download
+
 1. **Sign the licence** on the [official dataset page](https://challenge.xfyun.cn/misp_dataset).
-2. Files are hosted on an OSS mirror supporting `aria2c`/`wget`.
+2. Download the dataset using the official download links or the Baidu Netdisk mirror below.
 3. Verify integrity with the provided checksums.
 
-> Problems? Open an [issue](../../issues) or e‑mail the maintainers.
+### Alternative Download: Baidu Netdisk
+
+If you experience problems with the official download links, please use this mirror:
+
+- **Dataset:** MISP-Meeting
+- **Download:** https://pan.baidu.com/s/1nIW93jULCO4mfy1u2IUEJA
+- **Extraction code:** `xb44`
+
+The same licence and authorisation requirements apply to downloads from this mirror.
+
+> Problems? Open an [issue](../../issues) or e-mail the maintainers.
 
 ## ⚙️ Quick Start
 ### 1. Environment
